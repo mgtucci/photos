@@ -1,11 +1,13 @@
 
 h1 {
-    background-color: white;
     text-align: center;
+    color: #DEB887;
+    font-family: monospace;
+    font-size: 36px;
 }
 
 html {
-    background-color: grey;
+    background-color: #F0FFFF;
 }
 
 .center {
@@ -17,4 +19,12 @@ html {
 
 p {
     text-align: center;
+    font-family:monospace;
+    color: #A9A9A9;
+}
+
+h3 {
+    text-align: center;
+    font-family: monospace;
+    font-size: 36px;
 }
