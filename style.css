@@ -50,6 +50,8 @@ a:active {
     display: flex;
     overflow: auto;
     flex-wrap: wrap;
+    align-items: center;
+    
 }
 
 .sample-image img { 
