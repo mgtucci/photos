@@ -12,6 +12,7 @@ h1 {
 
 h1:hover {
     color: #b8860b;
+    transition: 0.5s ease;
 }
 
 p {
@@ -39,6 +40,7 @@ a {
 
 a:hover {
     color: #b8860b;
+    transition: 0.5s ease;
 }
 
 
@@ -51,11 +53,12 @@ a:active {
     overflow: auto;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     
 }
 
 .sample-image img { 
-     padding: 30px; 
+     padding: 20px; 
 }
 
 @media (max-width: 900px) {
@@ -87,21 +90,81 @@ a:active {
 	height: 30px;
     }
 }
-
-@media (max-width: 1000px) {
-    html {
-	background: white;
-    }
-}
     
 .portrait {
     width: 300px;
+    height: auto;
 }
 
 .landscape {
     width: 600px;
+    height: auto;
 }
 
-.album-cover {
-    width: 500px;
+@media (max-width: 1390px) {
+    .portrait {
+	width: 20%;
+	height: auto;
+    }
+
+    .landscape {
+	width: 40%;
+	height: auto;
+    }
+
+}
+
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    width: 250px;
+    height: 250px;
+}
+
+.album {
+    display: flex;
+    width: 250px;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    background: rgba(169, 169, 169, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    padding: opx;
+    text-align: center;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+svg:hover {
+    fill:  #b8860b;
+    transition: 0.5s ease;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
 }
