@@ -42,7 +42,8 @@ a {
 }
 
 .sample-image {
-    width: 1200px;
+    /* width: 1200px; */
+    width: 80%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -147,14 +148,39 @@ a:active {
     padding-left: 30px;
     display: flex;
     align-items: center;
+    text-align: center;
     
 }
 
-@media (max-width: 1230px) {
+.me {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
 
-    .sample-image {
-	width: 900px;
-    }
+.me-img {
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    padding-top: 5px;
+    width: 300px;
+    height: auto;
+}
+
+.bio {
+    font-size: 20px;
+    text-align: center;
+}
+
+.bio-block {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media (max-width: 1230px) {
 
     .portrait {
 	width: 200px;
@@ -165,12 +191,13 @@ a:active {
 	width: 400px;
 	height: auto;
     }
+        .me-img {
+	width: 200px;
+	hieght: auto;
+    }
 }
 
 @media (max-width: 930px) {
-    .sample-image {
-	width: 600px;
-    }
     
     a {
 	font-size: 25px;
@@ -188,7 +215,7 @@ a:active {
 	width: 35px;
 	height: 35px;
     }
-        .portrait {
+    .portrait {
 	width: 150px;
 	height: auto;
     }
@@ -197,12 +224,13 @@ a:active {
 	width: 300px;
 	height: auto;
     }
+    .me-img {
+	width: 170px;
+	hieght: auto;
+    }
 }
 
 @media (max-width: 790px) {
-    .sample-image {
-	width: 500px;
-    }
     
      a {
 	font-size: 17px;
@@ -212,7 +240,7 @@ a:active {
 	font-size: 22px;
     }
 
-     .logo {
+    .logo {
 	width: 150px;
     }
 
@@ -220,7 +248,7 @@ a:active {
 	width: 30px;
 	height: 30px;
     }
-        .portrait {
+    .portrait {
 	width: 125px;
 	height: auto;
     }
@@ -229,14 +257,16 @@ a:active {
 	width: 250px;
 	height: auto;
     }
+    
+    .me-img {
+	width: 150px;
+
+    }
+
 
 }
 
 @media (max-width: 600px) {
-    
-    .sample-image {
-	width: 400px;
-    }
     
     a {
 	font-size: 10px;
@@ -266,9 +296,17 @@ a:active {
     }
     
     .icon {
-    width: 30px;
-    height: 30px;
+	width: 30px;
+	height: 30px;
+    }
+
+    .me-img {
+	width: 100px;
+
     }
     
 }
     
+    /* .sample-image { */
+    /* 	width: 900px; */
+    /* } */
