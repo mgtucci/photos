@@ -1,8 +1,12 @@
+@font-face {
+    font-family: niceCleanFont;
+    src: url(AdobeClean-Light.otf);
+}
 
 h1 {
     text-align: left;
     color: #A9A9A9;
-    font-family: sans-serif;
+    font-family: niceCleanFont;
     font-weight: 300;
     font-size: 40px;
     padding: 15px;
@@ -17,7 +21,7 @@ h1:hover {
 
 p {
     color: #a9a9a9;
-    font-family: sans-serif;
+    font-family: niceCleanFont;
     font-weight: 100px;
     font-size: 40px;
     margin: 15px;
@@ -34,11 +38,15 @@ svg {
 a {
     text-decoration: none;
     color: #A9A9A9;
-    font-family: sans-serif;
+    font-family: niceCleanFont;
     font-size: 30px;
     padding: 15px;
     font-weight: 200;
     
+}
+
+.header-options {
+    font-family: niceCleanFont;
 }
 
 .sample-image {
@@ -306,7 +314,8 @@ a:active {
     }
     
 }
-    
+
+
     /* .sample-image { */
     /* 	width: 900px; */
     /* } */
