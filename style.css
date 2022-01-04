@@ -315,7 +315,8 @@ a:active {
     
 }
 
-
-    /* .sample-image { */
-    /* 	width: 900px; */
-    /* } */
+.gmail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
