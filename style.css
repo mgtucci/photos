@@ -3,6 +3,8 @@
     src: url(AdobeClean-Light.otf);
 }
 
+
+
 h1 {
     text-align: left;
     color: #A9A9A9;
@@ -39,7 +41,7 @@ a {
     text-decoration: none;
     color: #A9A9A9;
     font-family: niceCleanFont;
-    font-size: 30px;
+    font-size: 20px;
     padding: 15px;
     font-weight: 200;
     
@@ -65,12 +67,12 @@ a {
 }
  
 .portrait {
-    width: 250px;
+    width: 160px;
     height: auto;
 }
 
 .landscape {
-    width: 500px;
+    width: 320px;
     height: auto;
 }
 
@@ -90,26 +92,6 @@ a {
     height: auto;
 }
 
-.overlay {
-    position: absolute;
-    display: flex;
-    justify-content: center;
-    bottom: 0;
-    background: rgba(169, 169, 169, 0.5);
-    color: #f1f1f1;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    opacity:0;
-    color: white;
-    padding: opx;
-    text-align: center;
-}
-
-.container:hover .overlay {
-    opacity: 1;
-}
-
 svg:hover {
     fill:  #b8860b;
     transition: 0.5s ease;
@@ -123,6 +105,7 @@ a:hover {
 
 a:active {
     color: #DCDCDC;
+    transition: 0s;
 }
 
 .video {
@@ -140,7 +123,6 @@ a:active {
     padding-left: 70px;
     padding-right: 70px;
     padding-bottom: 50px;
-    
 }
 
 .icon {
@@ -165,6 +147,8 @@ a:active {
     display: flex;
     justify-content: center;
     margin: 0 auto;
+    align-items: center;
+    
 }
 
 .me-img {
@@ -176,9 +160,28 @@ a:active {
     height: auto;
 }
 
+.hello {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: #A9A9A9;
+    font-family: niceCleanFont;
+    margin-bottom: 0px;
+    font-weight: 200;
+}
+
 .bio {
     font-size: 20px;
     text-align: center;
+    text-decoration: none;
+    color: #A9A9A9;
+    font-family: niceCleanFont;
+    padding: 15px;
+    font-weight: 200;
+}
+
 }
 
 .bio-block {
@@ -187,16 +190,15 @@ a:active {
 }
 
 
-
 @media (max-width: 1230px) {
 
     .portrait {
-	width: 200px;
+	width: 160px;
 	height: auto;
     }
 
     .landscape {
-	width: 400px;
+	width: 320px;
 	height: auto;
     }
         .me-img {
@@ -205,10 +207,10 @@ a:active {
     }
 }
 
-@media (max-width: 930px) {
+@media (max-width: 965px) {
     
     a {
-	font-size: 25px;
+	font-size: 20px;
     }
 
     h1 {
@@ -224,12 +226,12 @@ a:active {
 	height: 35px;
     }
     .portrait {
-	width: 150px;
+	width: 125px;
 	height: auto;
     }
 
     .landscape {
-	width: 300px;
+	width: 250px;
 	height: auto;
     }
     .me-img {
@@ -241,7 +243,7 @@ a:active {
 @media (max-width: 790px) {
     
      a {
-	font-size: 17px;
+	font-size: 20px;
     }
 
     h1 {
@@ -257,12 +259,12 @@ a:active {
 	height: 30px;
     }
     .portrait {
-	width: 125px;
+	width: 100px;
 	height: auto;
     }
 
     .landscape {
-	width: 250px;
+	width: 200px;
 	height: auto;
     }
     
@@ -277,7 +279,7 @@ a:active {
 @media (max-width: 600px) {
     
     a {
-	font-size: 10px;
+	font-size: 15px;
     }
 
     h1 {
@@ -320,3 +322,4 @@ a:active {
     justify-content: center;
     align-items: center;
 }
+
